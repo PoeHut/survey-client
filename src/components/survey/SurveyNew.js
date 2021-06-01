@@ -1,0 +1,13 @@
+// survey new is to show survey form and survey review
+import React from 'react'
+import SurveyForm from './SurveyForm'
+
+const SurveyNew = () => {
+    return (
+        <div>
+            <SurveyForm />
+        </div>
+    )
+}
+
+export default SurveyNew
